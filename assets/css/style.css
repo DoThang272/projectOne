@@ -1,0 +1,12 @@
+
+* , body {
+    font-family: "Inria Serif", serif;
+}
+ul li{
+    list-style-type: none;
+    padding: 6px;
+}
+/* .fixBorderMenu{
+    padding-top: 6px;
+    border-bottom: 2px solid rgb(203 213 225);
+} */
