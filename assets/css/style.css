@@ -1,12 +1,11 @@
 
 * , body {
     font-family: "Inria Serif", serif;
+    font-size: 17.6px;
 }
 ul li{
     list-style-type: none;
-    padding: 6px;
+    padding: 0px 6px;
+    margin: 12px 9px;
 }
-/* .fixBorderMenu{
-    padding-top: 6px;
-    border-bottom: 2px solid rgb(203 213 225);
-} */
+
