@@ -1,160 +1,255 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp,container-queries"></script>
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
-<body>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
     <div class="header bg-white text-[#103178] sticky top-0 z-50">
-        <div class="bodyTop bg-[#103178] flex justify-center text-[18px] text-[#FFC800] py-[8px] w-full">
-            Due to the COVID 19 epidemic, orders may be processed with a slight delay
+      <div
+        class="bodyTop bg-[#103178] flex justify-center text-[18px] text-[#FFC800] py-[8px] w-full"
+      >
+        Due to the COVID 19 epidemic, orders may be processed with a slight
+        delay
+      </div>
+      <div
+        class="bodyBotton flex justify-between items-center ml-[15%] mr-[20%] my-[10px]"
+      >
+        <div class="logo flex items-center w-[30%]">
+          <img class="size-[50px]" src="./images/logo.png" alt="logo" />
+          <div class="pl-[10px] text-[24px] text-[#103178] font-bold">
+            CureM4
+          </div>
         </div>
-        <div class="bodyBotton flex justify-between items-center ml-[15%] mr-[20%] my-[10px] ">
-            <div class="logo flex items-center w-[30%]">
-                <img class="size-[50px] " src="./images/logo.png" alt="logo">
-                <div class="pl-[10px] text-[24px] text-[#103178] font-bold">CureM4</div>
-            </div>
-            <div class="menu flex justify-around items-center w-[70%]">
-                <div class="menuBar">
-                    <ul class="flex text-[18px]">
-                        <li>Home</li>
-                        <li>Shop</li>
-                        <li>Products</li>
-                        <li>About</li>
-                        <li>Contacts</li>
-                    </ul>
-                </div>
-                <div class="contact text-[#5B6C8F]">Need help? 0397269518</div>
-                <div class="social-logo ">
-                    <ul class="flex items-center">
-                        <li><i class="fa-brands fa-facebook"></i></li>
-                        <li><i class="fa-brands fa-twitter"></i></li>
-                        <li><i class="fa-brands fa-instagram"></i></li>
-                    </ul>
-                </div>
-            </div>
+        <div class="menu flex justify-around items-center w-[70%]">
+          <div class="menuBar">
+            <ul class="flex text-[18px]">
+              <li>Home</li>
+              <li>Shop</li>
+              <li>Products</li>
+              <li>About</li>
+              <li>Contacts</li>
+            </ul>
+          </div>
+          <div class="contact text-[#5B6C8F]">Need help? 0397269518</div>
+          <div class="social-logo">
+            <ul class="flex items-center">
+              <li><i class="fa-brands fa-facebook"></i></li>
+              <li><i class="fa-brands fa-twitter"></i></li>
+              <li><i class="fa-brands fa-instagram"></i></li>
+            </ul>
+          </div>
         </div>
-        <div class="border-t-2 border-from-gray-400"></div>
+      </div>
+      <div class="border-t-2 border-from-gray-400"></div>
     </div>
     <div class="body w-full">
-        <div class="  pb-[62px] w-full">
-            <div class="bg-[#F0F2F5]">
-                <div class="banner  flex items-center mr-[20%] ml-[15%]">
-                    <div class="banner-right w-[50%]">
-                        <h1 class="text-[#103178] text-[62px]">Antivirus <br> Mask Store</h1>
-                        <p class="text-[#103178] my-[20px] text-[23px]">The easiest way to protect yourself</p>
-                        <div class="flex">
-                            <div class="w-[50%]">
-                                <i class="fa-solid fa-shield-heart"></i>
-                                <span>Anti-Bacterial</span>
-                            </div>
-                            <div>
-                                <i class="fa-solid fa-earth-asia"></i>
-                                <span>Anti-Virus</span>
-                            </div>
-                        </div>
-                        <button class="bg-[#FFC800] mt-[20px] py-[13px] px-[46px] text-white font-bold rounded-[100px]">Shop now</button>
-                    </div>
-                    <div class="banner-left w-[50%] relative">
-                        <div class="rounded-full flex justify-center items-center bg-[#FFC800] text-[#103178] w-[140px] h-[140px] absolute top-[33px] right-[120px]">
-                            <div>
-                                <p class="text-[24px] flex justify-center">only</p>
-                                <p class="text-[48px]">$25</p>
-                            </div>
-                        </div>
-                        <img width="100%" src="./images/product1.jpg" alt="product1">
-                    </div>
-                </div>
-                
-            </div>
-            <div class="my-[80px]  flex justify-around items-center ml-[15%] mr-[20%]">
-                <div class=" box1 w-[32%] relative">
-                    <img class="h-full " src="./images/mbr.jpeg" alt="">
-                    <div class="absolute top-7 left-7">
-                        <div class="bg-[#13A05D]  text-white w-fit py-[3px] px-[14px] rounded-[100px] mb-[16px]">NEW</div>
-                        <h3 class="text-[32px] text-white font-bold">Antivirus</h3>
-                        <h3 class="text-[32px] text-white mb-[32px] font-bold">Mask</h3>
-                        <button class="bg-[#103178]  py-[13px] px-[46px] text-white font-bold rounded-[100px]">More</button>
-
-                    </div>
-                </div>
-                <div class="box2 w-[32%] relative bg-white">
-                    <img class="h-[263.88px] w-full" src="./images/card1.jpg" alt="">
-                    <div class="absolute top-7 left-7">
-                        <h3 class="text-[32px] text-[#103178] font-bold">Basic</h3>
-                        <h3 class="text-[32px] text-[#103178] font-bold">Mask</h3>
-                        <h2 class="text-[48px] text-[#FFC800] font-bold">30%</h2>
-                        <button class="bg-[#103178] mt-[5px] py-[13px] px-[46px] text-white font-bold rounded-[100px]">Show now</button>
-
-                    </div>
-                </div>
-                <div class="box3 w-[32%] relative">
-                    <img src="./images/mbr-3.jpg" alt="">
-                    <div class="absolute top-7 left-7">
-                        <h3 class="text-[32px] text-[#103178] font-bold">Medical Mask</h3>
-                        <h2 class="text-[48px] text-[#FFC800] font-bold">$15.99</h2>
-                        <del class="text-[23px] text-[#F0F2F5]">$29.99</del>
-                        <br>
-                        <button class="bg-[#103178] mt-[20px] py-[13px] px-[46px] text-white font-bold rounded-[100px]">More</button>
-
-                    </div>
-                </div>
-            </div>
-            <div class="bg-[#F0F2F5] mt[62px] pb-[62px] flex flex-col justify-center items-center ">
-                <div class=" ml-[15%] mr-[20%] flex flex-col justify-center items-center ">
-                    <h2 class="text-[48px] text-[#103178] font-bold">Effective and reliable</h2>
-                    <h2 class="text-[48px] text-[#103178] font-bold">protection for your</h2>
-                    <p class="text-[22.4px] text-[#5B6C8F] mb-[20px]">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                    <div class="flex justify-center items-center w-full">
-                        <div class="flex flex-col items-center text-[#5b6c8f] w-[32%]">
-                            <i class="fa-solid fa-earth-americas text-[48px] pb-[30px]"></i>
-                            <div class="text-[#103178] text-[22.4px] pb-[20px] font-bold">Anti-Virus</div>
-                            <p class="text-[17.4px]">Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
-    
-                        </div>
-                        <div class="flex flex-col items-center text-[#5b6c8f] w-[32%]">
-                            <i class="fa-solid fa-wand-magic-sparkles text-[48px] pb-[30px]"></i>
-                            <div class="text-[#103178] text-[22.4px] pb-[20px] font-bold">Anti-Bacterial</div>
-                            <p class="text-[17.4px]">Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
-    
-                        </div>
-                        <div class="flex flex-col items-center text-[#5b6c8f] w-[32%]">
-                            <i class="fa-solid fa-shield-heart text-[48px] pb-[30px]"></i>
-                            <div class="text-[#103178] text-[22.4px] pb-[20px] font-bold">Safety</div>
-                            <p class="text-[17.4px]">Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
-    
-                        </div>
-                    </div>
-                    
-                </div>
-            </div>
-            <div class=" ml-[15%] mr-[20%] flex justify-center items-center mt-[62px]">
+      <div class="pb-[62px] w-full">
+        <div class="bg-[#F0F2F5]">
+          <div class="banner flex items-center mr-[20%] ml-[15%]">
+            <div class="banner-right w-[50%]">
+              <h1 class="text-[#103178] text-[62px]">
+                Antivirus <br />
+                Mask Store
+              </h1>
+              <p class="text-[#103178] my-[20px] text-[23px]">
+                The easiest way to protect yourself
+              </p>
+              <div class="flex">
                 <div class="w-[50%]">
-                    <h1>
-                        <strong class="">Effective & reliable protection</strong>
-                    </h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    <button class="bg-[#FFC800] mt-[20px] py-[13px] px-[46px] text-white font-bold rounded-[100px]">Shop now</button>
+                  <i class="fa-solid fa-shield-heart"></i>
+                  <span>Anti-Bacterial</span>
                 </div>
-
-                <div class="w-[50%]">
-                    <img src="./images/features1.jpg" alt="">
+                <div>
+                  <i class="fa-solid fa-earth-asia"></i>
+                  <span>Anti-Virus</span>
                 </div>
+              </div>
+              <button
+                class="bg-[#FFC800] mt-[20px] py-[13px] px-[46px] text-white font-bold rounded-[100px]"
+              >
+                Shop now
+              </button>
             </div>
+            <div class="banner-left w-[50%] relative">
+              <div
+                class="rounded-full flex justify-center items-center bg-[#FFC800] text-[#103178] w-[140px] h-[140px] absolute top-[33px] right-[120px]"
+              >
+                <div>
+                  <p class="text-[24px] flex justify-center">only</p>
+                  <p class="text-[48px]">$25</p>
+                </div>
+              </div>
+              <img width="100%" src="./images/product1.jpg" alt="product1" />
+            </div>
+          </div>
         </div>
-    </div>
-    <div class="footer h-[1000px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur excepturi sed perspiciatis libero tenetur, ut quidem explicabo distinctio nihil asperiores, rem ratione, labore ab. Sit placeat quis commodi incidunt dolor?
+        <div
+          class="my-[80px] flex justify-around items-center ml-[15%] mr-[20%]"
+        >
+          <div class="box1 w-[32%] relative">
+            <img class="h-full" src="./images/mbr.jpeg" alt="" />
+            <div class="absolute top-7 left-7">
+              <div
+                class="bg-[#13A05D] text-white w-fit py-[3px] px-[14px] rounded-[100px] mb-[16px]"
+              >
+                NEW
+              </div>
+              <h3 class="text-[32px] text-white font-bold">Antivirus</h3>
+              <h3 class="text-[32px] text-white mb-[32px] font-bold">Mask</h3>
+              <button
+                class="bg-[#103178] py-[13px] px-[46px] text-white font-bold rounded-[100px]"
+              >
+                More
+              </button>
+            </div>
+          </div>
+          <div class="box2 w-[32%] relative bg-white">
+            <img class="h-[263.88px] w-full" src="./images/card1.jpg" alt="" />
+            <div class="absolute top-7 left-7">
+              <h3 class="text-[32px] text-[#103178] font-bold">Basic</h3>
+              <h3 class="text-[32px] text-[#103178] font-bold">Mask</h3>
+              <h2 class="text-[48px] text-[#FFC800] font-bold">30%</h2>
+              <button
+                class="bg-[#103178] mt-[5px] py-[13px] px-[46px] text-white font-bold rounded-[100px]"
+              >
+                Show now
+              </button>
+            </div>
+          </div>
+          <div class="box3 w-[32%] relative">
+            <img src="./images/mbr-3.jpg" alt="" />
+            <div class="absolute top-7 left-7">
+              <h3 class="text-[32px] text-[#103178] font-bold">Medical Mask</h3>
+              <h2 class="text-[48px] text-[#FFC800] font-bold">$15.99</h2>
+              <del class="text-[23px] text-[#F0F2F5]">$29.99</del>
+              <br />
+              <button
+                class="bg-[#103178] mt-[20px] py-[13px] px-[46px] text-white font-bold rounded-[100px]"
+              >
+                More
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="bg-[#F0F2F5] mt[62px] pb-[62px] flex flex-col justify-center items-center"
+        >
+          <div
+            class="ml-[15%] mr-[20%] flex flex-col pt-[30px] justify-center items-center"
+          >
+            <h2 class="text-[48px] text-[#103178] font-bold">
+              Effective and reliable
+            </h2>
+            <h2 class="text-[48px] text-[#103178] font-bold">
+              protection for your
+            </h2>
+            <p class="text-[22.4px] text-[#5B6C8F] mb-[20px]">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            </p>
+            <div class="flex justify-center items-center w-full">
+              <div class="flex flex-col items-center text-[#5b6c8f] w-[32%]">
+                <i class="fa-solid fa-earth-americas text-[48px] pb-[30px]"></i>
+                <div class="text-[#103178] text-[22.4px] pb-[20px] font-bold">
+                  Anti-Virus
+                </div>
+                <p class="text-[17.4px]">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing.
+                </p>
+              </div>
+              <div class="flex flex-col items-center text-[#5b6c8f] w-[32%]">
+                <i
+                  class="fa-solid fa-wand-magic-sparkles text-[48px] pb-[30px]"
+                ></i>
+                <div class="text-[#103178] text-[22.4px] pb-[20px] font-bold">
+                  Anti-Bacterial
+                </div>
+                <p class="text-[17.4px]">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing.
+                </p>
+              </div>
+              <div class="flex flex-col items-center text-[#5b6c8f] w-[32%]">
+                <i class="fa-solid fa-shield-heart text-[48px] pb-[30px]"></i>
+                <div class="text-[#103178] text-[22.4px] pb-[20px] font-bold">
+                  Safety
+                </div>
+                <p class="text-[17.4px]">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="ml-[15%] mr-[20%] flex justify-center items-center mt-[62px] pb-[80px]"
+        >
+          <div class="w-[50%] px-[16px]">
+            <h1>
+              <strong class="text-[61.8px] px-[32px] flex text-[#103178]"
+                >Effective & reliable protection</strong
+              >
+            </h1>
+            <p class="text-[22.4px] px-[32px] flex text-[#103178]">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+            <button
+              class="bg-[#FFC800] mt-[20px] ml-[32px] py-[13px] px-[46px] text-white font-bold rounded-[100px]"
+            >
+              Shop now
+            </button>
+          </div>
 
+          <div class="w-[50%]">
+            <img src="./images/features1.jpg" alt="" />
+          </div>
+        </div>
+        <div class="bg-[#F0F2F5] flex justify-center items-center">
+          <div
+            class="bg-[url('./images/background23.jpg')] bg-cover bg-center m-[32px] py-[1rem] px-[2rem] w-[60%] flex justify-between items-center"
+          >
+            <!-- <img src="./images/background23.jpg" class="w-fit" alt="bg23" /> -->
+            <div class="text-white flex justify-center items-center">
+              <i class="fa-solid fa-shield-heart pr-[13px] "></i>
+              <span >100% Secure delivery without contacting the courier</span>
+            </div>
+            <div class="flex justify-center items-center">
+              <button
+                class="bg-[#13A05D] py-[13px] px-[46px] text-white font-bold rounded-[100px]"
+              >More</button>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-
-</body>
+    <div class="footer h-[1000px]">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur
+      excepturi sed perspiciatis libero tenetur, ut quidem explicabo distinctio
+      nihil asperiores, rem ratione, labore ab. Sit placeat quis commodi
+      incidunt dolor?
+    </div>
+  </body>
 </html>
